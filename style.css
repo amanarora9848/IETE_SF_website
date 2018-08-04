@@ -10,14 +10,9 @@
     5.0 - Slider area
     6.0 - Block area
     7.0 - Intro section
-    8.0 - Services area
-    9.0 - Client logo
-    10.0 - Accordian section
-    11.0 - Portfolio section
-    12.0 - Contact us
-    13.0 - Testimonial section
-    14.0 - Blog Section
-    15.0 - footer section
+    8.0 - Contact us
+    9.0 - footer section
+   10.0 - About page Jumbotron
 
 -------------------------------------
 [ END CSS TABLE CONTENT ]
@@ -359,9 +354,12 @@ ul.cart-list>li.total>a.btn:hover {
 .slider-bg3{
 	background: url("assets/img/slider-bg/display_img3.jpg") no-repeat;
 }
+.slider-bg4{
+	background: url("assets/img/slider-bg/display_img6.jpg") no-repeat;
+}
 .homepage-slider{
 	width: 100%;
-	height: 500px;
+	height: 485px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
@@ -482,6 +480,12 @@ ul.cart-list>li.total>a.btn:hover {
 .slider-area.owl-carousel:hover .owl-nav .owl-next{
 	right: 15px;
 	opacity: 1;
+}
+
+/* About page css*/
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
 }
 
 /* ================ Block area ================== */
@@ -871,112 +875,7 @@ ul.cart-list>li.total>a.btn:hover {
 	color: #fff;
 }
 
-/*portfolio-single-page 
-------------------------------------*/
-.single-portfolio-wrapper, 
-.single-portfolio-wrapper a{
-	font-family: "Titillium Web",sans-serif;
-}
 
-.single-portfolio-title a {
-	color: #3452ff;
-	font-size: 17px;
-	font-weight: 500;
-	text-transform: uppercase;
-}
-.single-portfolio-title h2 {
-	font-size: 26px;
-	margin-bottom: 20px;
-	margin-top: 5px;
-}
-.portfolio-details-panel p {
-	line-height: 27px;
-	margin-bottom: 25px;
-}
-.portfolio-details-panel ul span {
-	display: inline-block;
-	width: 140px;
-}
-.portfolio-details-panel ul {
-	color: #aaa;
-	list-style: none;
-	padding: 0px;
-	margin-bottom: 30px;
-}
-.portfolio-details-panel ul span {
-	color: #000;
-	text-transform: uppercase;
-}
-.portfolio-details-panel ul li {
-	padding-bottom: 15px;
-}
-.portfolio-details-panel ul a {
-	color: #aaa;
-	margin-right: 6px;
-}
-.portfolio-details-panel ul a:hover {
-	color: #3452ff;
-}
-
-.single-portfolio-images img {
-	margin-bottom: 30px;
-}
-
-.divider{
-	background: #EEEEEE;
-	display: block;
-	width: 100%;
-	height: 1px;
-	margin: 10px 0px;
-}
-.company-address{
-	margin: 0 15px;
-}
-.company-address ul{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-.company-address ul li{
-	padding-left: 50px;
-	position: relative;
-	margin-bottom: 40px;
-}
-.company-address ul li i{
-	left: 0;
-	position: absolute;
-	top: 4px;
-	color: #4860F0;
-	font-size: 22px;
-}
-.company-address ul li a{
-	color: #61727f;
-}
-
-/* ================ testimonial section ================== */
-
-.testimonial{
-	padding: 120px 0px;
-	background: #F4F7F7;
-	color: #212121;
-}
-.testimonial h3{
-	font-size: 30px;
-	margin-bottom: 30px;
-	line-height: 45px;
-}
-.testimonial a{
-	color: #212121;
-	font-size: 25px;
-	color: #212121;
-	font-weight: bold;
-}
-a:focus{
-	text-decoration: none;
-}
-.testimonial span{
-	font-size: 15px;
-}
 
 /* ------------------ preloader ----------------------*/
 
@@ -1027,157 +926,7 @@ a:focus{
 }
 }
 
-/* ================ Blog Section ================== */
-/*
-.blog-item{
-	margin-bottom: 30px;
-	box-shadow: 0 49px 72px 0 rgba(25, 25, 25, 0.12);
-}
-.blog-item a{
-	font-family: "Titillium Web",sans-serif;
-}
-.blog-item .blog-thumb{
-	overflow: hidden;
-}
-.blog-item .blog-thumb img{
-	transition: all .3s;
-	width: 100%;
-	height: auto;
-}
-.blog-content{
-	padding: 0px 10px 20px 30px;
-}
-.blog-header .tag{
-	margin-top: 20px;
-	overflow: hidden;
-}
-.entry-title{
-	color: #212121;
-	font-size: 20px;
-	font-weight: 700;
-	margin-bottom: 18px;
-	line-height: 25px;
-}
-.entry-title a{
-	color: #212121;
-	transition: all .3s;
-}
-.entry-title a:hover{
-	color: #3452FF;
-}
-.blog-header ul{
-	margin: 0px;
-	padding: 0px;
-	list-style: none;
-}
-.blog-header ul li{
-	float: left;
-	position: relative;
-	padding-right: 2px;
-	margin-right: 3px;
-}
-.blog-header ul li:last-child:before{
-	content:"";
-}
-.blog-header ul li:before{
-	bottom: 4px;
-	content: ",";
-	position: absolute;
-	right: 0;
-	font-size: 14px;
-}
-.blog-header ul li a{
-	display: block;
-	margin-right: 5px;
-	margin-bottom: 3px;
-	color: #61727f;
-	transition: all .3s;
-}
-.blog-header ul li a:hover{
-	color: #000;
-}
-.entry-content a {
-	color: #000;
-	font-weight: 700;
-	transition: all .3s;
-}
-.entry-content a:hover{
-	color: #3452FF;
-}
-*/
 
-/* single blog 
----------------------------------------*/
-/*
-.post-wrapper{
-	box-shadow: 0 49px 72px 0 rgba(25, 25, 25, 0.12);
-	padding-bottom: 30px;
-}
-.post-wrapper .blog-content{
-	padding: 15px 20px 15px 40px;
-}
-.single-post-title h2 {
-	font-size: 29px;
-	font-weight: bold;
-	padding-top: 20px;
-	margin-bottom: 10px
-}
-.single-post-title h2 a {
-	color: #212121;
-}
-.post-meta ul {
-	list-style: outside none none;
-	margin: 0;
-	padding: 0;
-}
-.post-meta li {
-	float: left;
-}
-.post-meta {
-	overflow: hidden;
-	margin-bottom: 30px;
-}
-.post-meta > ul > li > a {
-	color: #888;
-	margin-right: 19px;
-	transition: all .3s;
-	font-size: 13px;
-}
-.post-meta > ul > li > a:hover{
-	color: #000;
-}
-.post-meta li a i {
-	margin-right: 7px;
-}
-.post-meta li.rating ul {
-	display: inline;
-	float: right;
-}
-.post-meta a {
-	font-family: "Titillium Web",sans-serif;
-}
-li.rating > a {
-	margin-right: 8px !important;
-}
-li.rating > ul a {
-	font-size: 13px;
-	margin: 0;
-}
-li.rating ul i {
-	margin: 1px;
-	color: #FE6000;
-}
-.entry-content p {
-	margin-bottom: 30px;
-}
-.full-width-img {
-	margin-bottom: 30px;
-	margin-left: -40px;
-	margin-right: -20px;
-}
-*/	
-/* single page social icon 
--------------------------------*/
 .social-link{
 	overflow: hidden;
 }
@@ -1479,3 +1228,11 @@ footer>div>div>div>div>img{
 }
 /*==================background image=========*/
 
+
+
+/* About page Jumbotron*/
+.jumbotron{
+	background-image: url("assets/img/light_edit.jpg");
+	background-size: cover;
+	opacity: 0.99;
+}
